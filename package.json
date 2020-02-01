@@ -1,12 +1,17 @@
 {
-  "name": "node-12factor",
+  "name": "nap0803/node-12factor",
   "version": "1.0.0",
   "description": "",
+  "keywords": [],
+  "license": "ISC",
+  "author": "",
   "main": "index.js",
   "scripts": {
+    "postinstall": "echo 'work'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "dependencies": {
+    "axios": "^0.19.2",
+    "dotenv-safe": "^8.2.0"
+  }
 }
